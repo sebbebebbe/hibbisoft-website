@@ -1,0 +1,17 @@
+{
+  "name": "hibbisoft-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hibbisoft's one-person consultancy storefront",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node --check app.js && node --check inquiry-delivery.js && node --check site-config.js && node --check scripts/serve.mjs",
+    "test": "playwright test",
+    "format": "prettier --write index.html styles.css app.js inquiry-delivery.js site-config.js scripts/*.mjs tests/*.js playwright.config.js package.json .github/workflows/deploy.yml"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "prettier": "^3.9.9"
+  }
+}

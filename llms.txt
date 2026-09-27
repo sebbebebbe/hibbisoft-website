@@ -1,0 +1,21 @@
+# Sebastian Johansson — Hibbisoft
+
+> Independent software developer and ecommerce consultant. Building software since 2006 and running Hibbisoft (HibbiSoft AB), a one-person consultancy, since 2017. For businesses, product teams and startups across industries in the Malmö–Lund–Copenhagen region.
+
+Expertise includes .NET, C#, React, TypeScript, MongoDB, Azure, Optimizely, Voyado Engage, Voyado Elevate, Kustom and Klarna. Sebastian has Agile and Scrum experience and uses Codex and Claude for AI-assisted software development.
+
+The site presents a CV as a playful ecommerce shop. The cart selects areas of expertise for a project inquiry; it does not sell products, accept payment or book time. Availability, scope and rates are discussed directly. Inquiries use the website contact form or LinkedIn.
+
+## Profile and experience
+
+- [Complete profile in Markdown](https://hibbisoft.se/index.md): Biography, three services, all 20 projects, career history, education, languages and contact options, reflecting the website's visible content.
+- [Consultancy website](https://hibbisoft.se/): Canonical one-page CV and contact form.
+- [Software development services](https://hibbisoft.se/#expertise): Backend and architecture, frontend and product development, ecommerce and integrations.
+- [Project experience](https://hibbisoft.se/#experience): Project descriptions, dates, contributions and technologies.
+- [Start a project inquiry](https://hibbisoft.se/#contact): Discuss a project and availability with Sebastian.
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/in/sebastian-johansson/): Sebastian Johansson's professional profile.
+- [GitHub](https://github.com/sebbebebbe): Sebastian Johansson's code profile.
+- [Downloadable CV](https://hibbisoft.se/Sebastian%20Johansson%20-%20CV.pdf): Original supplied CV. The website and Markdown profile include subsequent project updates.

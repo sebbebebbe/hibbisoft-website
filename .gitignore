@@ -1,0 +1,7 @@
+node_modules/
+.npm-cache/
+test-results/
+playwright-report/
+tmp/
+dist/
+.DS_Store
