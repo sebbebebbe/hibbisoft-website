@@ -1,7 +1,43 @@
-node_modules/
-.npm-cache/
-test-results/
-playwright-report/
-tmp/
-dist/
+# Installed dependencies and generated output
+/node_modules/
+/.npm-cache/
+/dist/
+/coverage/
+/.nyc_output/
+
+# Local checks, screenshots, and temporary work
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/tmp/
+*.log
+/security_best_practices_report.md
+
+# Original uploads; the site uses prepared files under assets/
+/*.jpg
+/*.jpeg
+/*.png
+/*.webp
+/new images/
+
+# Superseded assets that are no longer referenced by the site
+/assets/images/developer-desk-*.webp
+/assets/images/building-for-the-web-*.webp
+/assets/fonts/manrope-latin.woff2
+/assets/fonts/Manrope-LICENSE.txt
+
+# Local environment and editor settings
+.env
+.env.*
+!.env.example
+/.vscode/
+/.idea/
+/.vs/
+/.codex/
+/.agents/
+
+# Operating system metadata
 .DS_Store
+Thumbs.db
+Desktop.ini
