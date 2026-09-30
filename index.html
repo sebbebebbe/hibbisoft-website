@@ -2,6 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-JT6ZPNE18S"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-JT6ZPNE18S");
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#181818" />
     <meta
@@ -206,7 +219,7 @@
       type="font/ttf"
       crossorigin
     />
-    <link rel="stylesheet" href="./styles.css?v=44688d36" />
+    <link rel="stylesheet" href="./styles.css?v=cb4edd7b" />
     <script src="./site-config.js" defer></script>
     <script src="./inquiry-delivery.js" defer></script>
     <script src="./app.js" defer></script>
@@ -713,7 +726,7 @@
             </h2>
           </div>
           <p>
-            20 projects. From 2006 to today.<br />A closer look at what I helped
+            21 projects. From 2006 to today.<br />A closer look at what I helped
             build.
           </p>
         </div>
@@ -783,74 +796,132 @@
           </article>
           <article
             class="featured-project reveal"
-            id="project-mirror"
-            aria-labelledby="mirror-project-title"
+            id="project-riksdagsspelet"
+            aria-labelledby="riksdagsspelet-project-title"
           >
-            <div class="project-cover cover-mirror">
-              <span class="project-edition">THE PRODUCT EDITION</span>
-              <img
-                src="./assets/logos/mirror.svg"
-                alt=""
-                width="790"
-                height="227"
-                loading="lazy"
-              />
-              <span class="project-cover-caption"
-                >BIG IDEAS. ON EVERY SCREEN.</span
-              >
+            <div class="project-cover cover-riksdagsspelet">
+              <span class="project-edition">THE DEMOCRACY EDITION</span>
+              <div class="riksdagsspelet-brand" aria-hidden="true">
+                <img
+                  src="./assets/logos/riksdagsspelet.svg"
+                  alt=""
+                  width="64"
+                  height="64"
+                  loading="lazy"
+                />
+                <span>RIKSDAGS<span>SPELET</span></span>
+              </div>
+              <span class="project-cover-caption">DEMOCRACY. LEVELLED UP.</span>
             </div>
             <div class="featured-project-body">
               <div class="project-period">
-                <span
-                  >2023 — <time datetime="2026-10-16">16 OCT 2026</time></span
-                ><span class="project-status project-completed"
-                  >Completed collaboration</span
-                >
+                <span>WEB APPLICATION</span
+                ><span class="project-status">Live project</span>
               </div>
-              <h3 id="mirror-project-title">Mirror</h3>
-              <p class="project-promise">A proof of concept, all grown up.</p>
+              <h3 id="riksdagsspelet-project-title">Riksdagsspelet</h3>
+              <p class="project-promise">A new way to follow parliament.</p>
               <p class="project-description">
-                Digital signage SaaS that turns Apple TV into a platform for
-                branded content. A product journey from an early idea to screens
-                in real business environments.
+                A playful look at Sweden’s parliament, turning parliamentary
+                activity into XP, statistics and achievements. Explore what
+                members of the Riksdag do through an interface inspired by
+                games.
               </p>
               <div class="tags">
-                <span>C#</span><span>Blazor</span><span>Azure</span
-                ><span>MongoDB</span><span>tvOS / Apple TV</span>
+                <span>React</span><span>Open data</span
+                ><span>Data visualization</span>
               </div>
               <details class="project-details">
                 <summary>
-                  My contribution
+                  Explore the project
                   <span class="details-plus" aria-hidden="true">+</span>
                 </summary>
-                <p>
-                  A digital signage solution that started as a proof of concept
-                  at Stendahls in Gothenburg and grew into a product built
-                  around Apple TV.
-                </p>
                 <ul class="project-contributions">
                   <li>
-                    Product development for a digital signage SaaS solution
-                    using C#, Blazor, Azure and MongoDB.
+                    Explore members’ activity through XP, statistics and
+                    achievements.
                   </li>
                   <li>
-                    Content management and custom integrations that help
-                    businesses adapt signage to their brand and space.
+                    Compare members and follow their progress across seasons.
                   </li>
                   <li>
-                    Working across the web platform and its Apple TV / tvOS
-                    context.
+                    Discover parliamentary open data through a playful web
+                    experience.
                   </li>
                 </ul>
               </details>
+              <a
+                class="project-site-link"
+                href="https://www.riksdagsspelet.se/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Visit Riksdagsspelet <span aria-hidden="true">↗</span></a
+              >
             </div>
           </article>
         </div>
         <div class="project-history-heading">
           <span class="eyebrow">THE COMPLETE PROJECT ARCHIVE</span
-          ><span>18 more projects. Every chapter included.</span>
+          ><span>19 more projects. Every chapter included.</span>
         </div>
         <div class="experience-list reveal">
+          <details
+            id="project-mirror"
+            data-project-title="Digital signage SaaS"
+          >
+            <summary>
+              <span class="experience-year"
+                >2023 — <time datetime="2026-10-16">16 OCT 2026</time></span
+              >
+              <span class="experience-logo"
+                ><img
+                  src="./assets/logos/mirror.svg"
+                  alt=""
+                  width="104"
+                  height="58"
+                  loading="lazy"
+              /></span>
+              <span class="experience-name"
+                >Mirror<small
+                  >Digital signage SaaS · A proof of concept, all grown
+                  up.</small
+                ></span
+              >
+              <span class="details-plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="experience-detail">
+              <span class="project-status project-completed"
+                >Completed collaboration</span
+              >
+              <p>
+                Digital signage SaaS that turns Apple TV into a platform for
+                branded content. A product journey from an early idea to screens
+                in real business environments.
+              </p>
+              <p>
+                A digital signage solution that started as a proof of concept at
+                Stendahls in Gothenburg and grew into a product built around
+                Apple TV.
+              </p>
+              <ul class="project-contributions">
+                <li>
+                  Product development for a digital signage SaaS solution using
+                  C#, Blazor, Azure and MongoDB.
+                </li>
+                <li>
+                  Content management and custom integrations that help
+                  businesses adapt signage to their brand and space.
+                </li>
+                <li>
+                  Working across the web platform and its Apple TV / tvOS
+                  context.
+                </li>
+              </ul>
+              <div class="tags">
+                <span>C#</span><span>Blazor</span><span>Azure</span
+                ><span>MongoDB</span><span>tvOS / Apple TV</span>
+              </div>
+            </div>
+          </details>
           <details
             id="project-neptron"
             data-project-title="Sports event planner"

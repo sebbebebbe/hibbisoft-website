@@ -8,7 +8,7 @@ The site presents a CV as a playful ecommerce shop. The cart selects areas of ex
 
 ## Profile and experience
 
-- [Complete profile in Markdown](https://hibbisoft.se/index.md): Biography, three services, all 20 projects, career history, education, languages and contact options, reflecting the website's visible content.
+- [Complete profile in Markdown](https://hibbisoft.se/index.md): Biography, three services, all 21 projects, career history, education, languages and contact options, reflecting the website's visible content.
 - [Consultancy website](https://hibbisoft.se/): Canonical one-page CV and contact form.
 - [Software development services](https://hibbisoft.se/#expertise): Backend and architecture, frontend and product development, ecommerce and integrations.
 - [Project experience](https://hibbisoft.se/#experience): Project descriptions, dates, contributions and technologies.

@@ -1,6 +1,6 @@
 # Sebastian Johansson — the one-person software shop
 
-A responsive, one-page consultancy CV with a playful ecommerce storefront. Built with plain HTML, CSS and JavaScript, hosted as static files on GitHub Pages without a build step. Fonts and artwork are local; the site makes no third-party requests on initial page load. Optional direct inquiry delivery uses Formspree and loads Cloudflare Turnstile when the visitor reviews an inquiry.
+A responsive, one-page consultancy CV with a playful ecommerce storefront. Built with plain HTML, CSS and JavaScript, hosted as static files on GitHub Pages without a build step. Fonts and artwork are local. Google Analytics loads on initial page load using measurement ID `G-JT6ZPNE18S` to track site traffic. Optional direct inquiry delivery uses Formspree and loads Cloudflare Turnstile when the visitor reviews an inquiry.
 
 ## Preview
 
@@ -45,14 +45,14 @@ Content is based on the supplied CV and the confirmed technologies and target cl
 
 The photographic design takes inspiration from Stills’ spacious layouts, large serif headlines and overlapping imagery. The provided photos appear in the opening collage and skill cards as illustrations of development and product thinking. A supplied storefront screenshot adds ecommerce context to the intro, without attributing it to a specific client project. The green Hibbisoft logo and small green accents connect the quieter black-and-white palette to the company identity.
 
-All 20 projects from the CV are individually represented: two featured projects and 18 expandable archive entries. Telia’s two assignments, Laerdal’s two applications, the GS1 systems and the early-career projects each have their own dates, descriptions, technology tags and logo or icon.
+All 20 projects from the CV and Riksdagsspelet are individually represented: two featured projects and 19 expandable archive entries. Kjell & Company and Riksdagsspelet are featured; Mirror is the first archive entry. Telia’s two assignments, Laerdal’s two applications, the GS1 systems and the early-career projects each have their own dates, descriptions, technology tags and logo or icon.
 
 ## Search and AI discovery
 
 - The page has a descriptive title, summary, canonical URL, author metadata and large-image preview permission. Open Graph and Twitter cards use the local 1200 × 630 `assets/images/social-preview.png`.
 - Static JSON-LD identifies Sebastian as a `Person`, Hibbisoft as an `Organization`, the `WebSite`/`WebPage`, and the three `Service` offerings. LinkedIn and GitHub identify the same person. The playful cart is not marked up as a real retail product or paid offer.
 - The full CV content is available in HTML without JavaScript. `robots.txt` permits crawling and points to the one-page canonical sitemap. Stable service and project anchors make individual experience entries linkable.
-- `llms.txt` provides a concise guide to the site and links to `index.md`, a Markdown profile with all 20 projects, education, languages and contact options. HTML discovery links advertise both files. GitHub Pages publishes them as static assets.
+- `llms.txt` provides a concise guide to the site and links to `index.md`, a Markdown profile with all 21 projects, education, languages and contact options. HTML discovery links advertise both files. GitHub Pages publishes them as static assets.
 - When changing experience, skills or services, keep visible content, JSON-LD, `index.md` and `llms.txt` consistent. Update the sharing image when the brand or headline changes. Do not include the recipient email address in these files.
 
 `llms.txt` follows the [llms.txt proposal](https://llmstxt.org/); it is supplementary context, not a ranking signal or a guarantee of AI citations. [Google's guidance for AI search features](https://developers.google.com/search/docs/appearance/ai-features) emphasizes standard SEO, crawlable useful text, and structured data that matches visible content; no special AI file is required.

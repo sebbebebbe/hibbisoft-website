@@ -60,6 +60,20 @@ Technologies: .NET / C#, React, Optimizely, Voyado Engage, SQL Server.
 
 [View project](https://hibbisoft.se/#project-kjell)
 
+### Riksdagsspelet
+
+A playful look at Sweden’s parliament, turning parliamentary activity into XP, statistics and achievements. Explore what members of the Riksdag do through an interface inspired by games.
+
+- Explore members’ activity through XP, statistics and achievements.
+- Compare members and follow their progress across seasons.
+- Discover parliamentary open data through a playful web experience.
+
+Built with React, using open data and data visualization.
+
+[Visit Riksdagsspelet](https://www.riksdagsspelet.se/)
+
+[View project](https://hibbisoft.se/#project-riksdagsspelet)
+
 ### Mirror
 
 Period: 2023 — 16 OCT 2026. Completed collaboration.

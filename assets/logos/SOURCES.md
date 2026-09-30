@@ -20,3 +20,5 @@ Retrieved 2026-09-26 from the companies’ official websites. Logos identify com
 SVG geometry and logo proportions are preserved. Contemporary logos identify historical project companies; the project dates describe when Sebastian worked on the projects, not the date of the branding.
 
 The SVG files in `assets/icons/` are original project illustrations (lightbulb, camera, property search, key, train, map, messages and mailboxes). They represent the project subject, not company trademarks. Company names remain visible alongside every symbol.
+
+| `riksdagsspelet.svg` | [Riksdagsspelet](https://www.riksdagsspelet.se/) · [asset](https://www.riksdagsspelet.se/assets/favicon-iK5i8stm.svg) | Official pixel crown favicon, used in the featured project cover. |

@@ -834,8 +834,26 @@ h2 {
 .cover-kjell {
   background: #e3e5eb;
 }
-.cover-mirror {
-  background: #e9ece4;
+.cover-riksdagsspelet {
+  background: #f3eed4;
+}
+.riksdagsspelet-brand {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.riksdagsspelet-brand > span {
+  font-size: clamp(20px, 2.4vw, 32px);
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.8px;
+}
+.riksdagsspelet-brand > span > span {
+  display: block;
+}
+.project-cover .riksdagsspelet-brand img {
+  width: 64px;
+  height: 64px;
 }
 .project-cover::before {
   content: "";
@@ -853,9 +871,6 @@ h2 {
   height: auto;
   object-fit: contain;
   transition: transform 0.5s;
-}
-.cover-mirror img {
-  width: 200px;
 }
 .featured-project:hover .project-cover img {
   transform: scale(1.025);
@@ -2152,9 +2167,6 @@ body.dialog-open {
   .project-cover img {
     width: min(260px, 100%);
   }
-  .cover-mirror img {
-    width: 165px;
-  }
   .featured-project h3 {
     font-size: 36px;
   }
@@ -2547,9 +2559,6 @@ body.dialog-open {
   }
   .project-cover img {
     width: min(250px, 85%);
-  }
-  .cover-mirror img {
-    width: 170px;
   }
   .featured-project-body {
     padding-block: 23px;
